@@ -16,7 +16,7 @@ export default function Home() {
       <nav className="nav">
         <div className="nav__wrapper">
           <figure className="nav__img--mask">
-            <Image src={Logo} alt="logo" />
+            <Image src={Logo} className="nav__img" alt="logo" />
           </figure>
           <ul className="nav__list--wrapper">
             <li className="nav__list nav__list--login">Login</li>
